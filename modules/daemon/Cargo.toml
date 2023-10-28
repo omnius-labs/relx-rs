@@ -1,0 +1,23 @@
+[package]
+name = "relx-daemon"
+version = { workspace = true }
+edition = { workspace = true }
+authors = { workspace = true }
+build = "build.rs"
+
+[features]
+stable-test = []
+
+[dependencies]
+anyhow = { workspace = true }
+bincode = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+zerocopy = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }
+
+[build-dependencies]
+anyhow = { workspace = true }
+vergen = { workspace = true }
