@@ -3,7 +3,8 @@ members = [
     "./refs/core-rs/modules/base",
     "./refs/core-rs/modules/testkit",
 
-    "./modules/daemon",
+    "./entrypoints/daemon",
+    "./modules/engine",
 ]
 exclude = ["refs/core-rs"]
 resolver = "2"

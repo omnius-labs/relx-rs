@@ -1,0 +1,18 @@
+[package]
+name = "relx-engine"
+version = { workspace = true }
+edition = { workspace = true }
+authors = { workspace = true }
+
+[features]
+stable-test = []
+
+[dependencies]
+anyhow = { workspace = true }
+bincode = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+zerocopy = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }
