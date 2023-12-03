@@ -1,4 +1,4 @@
-# Relx
+# Relx - RDBMS sample implementation
 
 ## References
 
