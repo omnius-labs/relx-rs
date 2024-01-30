@@ -28,7 +28,7 @@ axum-extra = { version = "0.4.2", features = [
     "cookie-signed",
     "cookie-private",
 ] }
-chrono = "0.4.23"
+chrono = "0.4.33"
 config = "0.13.3"
 serde = { version = "1.0", features = ["derive", "rc"] }
 serde_json = "1.0.91"
