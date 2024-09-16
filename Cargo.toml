@@ -33,8 +33,8 @@ config = "0.13.3"
 serde = { version = "1.0", features = ["derive", "rc"] }
 serde_json = "1.0.91"
 testcontainers = "0.14.0"
-tokio = { version = "1.38.1", features = ["full"] }
-tokio-postgres = { version = "0.7.11", features = ["with-chrono-0_4"] }
+tokio = { version = "1.40.0", features = ["full"] }
+tokio-postgres = { version = "0.7.12", features = ["with-chrono-0_4"] }
 tracing = "0.1.37"
 tracing-subscriber = { version = "0.3.18", features = ["env-filter", "json"] }
 uuid = { version = "1.10.0", features = ["serde", "v4"] }
@@ -68,6 +68,6 @@ futures = "0.3.28"
 futures-util = "0.3.28"
 serial_test = "2.0.0"
 tempfile = "3.5.0"
-anyhow = { version = "1.0.86", features = ["backtrace"] }
+anyhow = { version = "1.0.89", features = ["backtrace"] }
 bincode = "1.3.3"
 zerocopy = "0.6.6"
